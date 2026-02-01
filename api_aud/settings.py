@@ -71,7 +71,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'api_aud.middleware.SimpleMiddleware',  # <-- наш
     'django.contrib.sessions.middleware.SessionMiddleware',
 ]
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
